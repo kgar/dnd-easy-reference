@@ -8,26 +8,34 @@
       "COMBINATION": "Combinação",
       "CONCENTRATION": "Concentração",
       "CONFIRM": "Confirmar",
-      "DAMAGE_ADD": "Adicionar seção de dano",
-      "DAMAGE_PARTS": "Seção de dano",
-      "DAMAGE_TYPES": "Tipos de dano",
+      "COPPER": "Peças de Cobre",
+      "DAMAGE_ADD": "Adicionar Seção de Dano",
+      "DAMAGE_PARTS": "Seção de Dano",
+      "DAMAGE_TYPES": "Tipos de Dano",
       "DC": "Dificuldade",
       "DELETE": "Excluir",
+      "EACH": "Cada Personagem",
       "EXTENDED": "Estendido",
       "FORMULA": "Fórmula",
+      "GOLD": "Peças de Ouro",
       "NAME_FORMAT": {
         "CAPITALIZE": "Capitalizar",
-        "LABEL": "Formato do nome",
+        "LABEL": "Formato do Nome",
         "LOWERCASE": "minúsculas",
         "UPPERCASE": "MAIÚSCULAS"
       },
-      "NAME_OPTIONS": "Opções de nome",
+      "NAME_OPTIONS": "Opções de Nome",
       "PASSIVE": "Passivo",
       "PLACEHOLDER": "",
       "RULES_SEARCH": "Regra",
-      "SELECT_ATTRIBUTE": "Selecionar atributo",
+      "SELECT_ATTRIBUTE": "Selecionar Atributo",
+      "SILVER": "Peças de Prata",
       "TYPES": "Tipos",
-      "USE_NAME": "Nome do Ator"
+      "USE_NAME": "Nome do Ator",
+      "XP": "Pontos de Experiência",
+      "AWARD_EXPERIENCE": "Experiência",
+      "AWARD_CURRENCY": "Moeda",
+      "AWARD_OPTIONS": "Opções"
     },
     "DETECT": {
       "TITLE": "Detectar Padrões",
@@ -35,78 +43,112 @@
       "PROMPT_CONFIRM": "Converter este texto?",
       "BUTTON_CONFIRM": "Confirmar",
       "BUTTON_SKIP": "Pular",
-      "BUTTON_CANCEL": "Cancelar Pesquisa",
-      "SCAN_STARTED": "Pesquisando padrões de {type}...",
-      "SCAN_COMPLETE": "Pesquisa concluída. Nenhum outro padrão de {type} encontrado.",
-      "SCAN_ACTIVE": "Uma pesquisa de padrões já está em progresso.",
-      "NO_PATTERN_DEF": "Nenhuma definição de padrão encontrada para {type} no idioma {lang} ou no fallback inglês.",
+      "BUTTON_CANCEL": "Cancelar Varredura",
+      "SCAN_STARTED": "Iniciando varredura de padrões {type}...",
+      "SCAN_COMPLETE": "Varredura concluída. Nenhum outro padrão de {type} encontrado.",
+      "SCAN_ACTIVE": "Uma varredura de padrões já está em andamento.",
+      "NO_PATTERN_DEF": "Nenhuma definição de padrão encontrada para {type} no idioma {lang} ou em Inglês como alternativa.",
       "PROMPT_WARNING": "Verifique a seleção antes de confirmar."
     },
     "MENU": {
-      "TITLE": "D&D",
-      "TITLE_DESCRIPTION": "D&D - Easy Reference",
-      "DESCRIPTION": "Selecione os menus a serem exibidos no ProseMirror.",
-      "CONDITIONTYPES": {
-        "TITLE": "Condições"
-      },
-      "SAVES": {
-        "TITLE": "Salvaguardas"
-      },
-      "CHECKS": {
-        "TITLE": "Testes"
-      },
-      "DAMAGE": {
-        "TITLE": "Fórmula de dano"
-      },
-      "WEAPONMASTERIES": {
-        "TITLE": "Maestrias de Arma"
-      },
-      "AREATARGETTYPES": {
-        "TITLE": "Tipos de Área"
-      },
-      "ITEMPROPERTIES": {
-        "TITLE": "Propriedades de Magia"
-      },
       "ABILITIES": {
+        "SETTING_NAME": "Exibir Atributos",
         "TITLE": "Atributos"
       },
-      "SKILLS": {
-        "TITLE": "Perícias"
-      },
-      "DAMAGETYPES": {
-        "TITLE": "Tipos de Dano"
-      },
-      "CREATURETYPES": {
-        "TITLE": "Tipos de Criatura"
-      },
-      "STYLE": {
-        "TITLE": "Estilos",
-        "ADVICE": "Conselho",
-        "ADVICE_TITLE": "Conselho",
-        "ADVICE_CONTENT": "Este é um bloco de conselho.",
-        "QUEST": "Missão",
-        "QUEST_TITLE": "Missão",
-        "QUEST_CONTENT": "Este é um bloco de missão.",
-        "TREASURE": "Tesouro",
-        "TREASURE_TITLE": "Tesouro",
-        "TREASURE_CONTENT": "Este é um bloco de tesouro.",
-        "NARRATIVE": "Narrativo",
-        "NOTABLE": "Notável"
+      "AREATARGETTYPES": {
+        "SETTING_NAME": "Exibir Tipos de Área de Alvo",
+        "TITLE": "Tipos de Área de Alvo"
       },
       "ATTACK": {
-        "TITLE": "Fórmula de ataque"
+        "SETTING_NAME": "Exibir Fórmula de Ataque",
+        "TITLE": "Fórmula de Ataque"
       },
+      "AWARD": {
+        "SETTING_NAME": "Exibir Recompensas",
+        "TITLE": "Recompensas"
+      },
+      "CHECKS": {
+        "SETTING_NAME": "Exibir Testes",
+        "TITLE": "Testes"
+      },
+      "CONDITIONTYPES": {
+        "SETTING_NAME": "Exibir Condições",
+        "TITLE": "Condições"
+      },
+      "CREATURETYPES": {
+        "SETTING_NAME": "Exibir Tipos de Criatura",
+        "TITLE": "Tipos de Criatura"
+      },
+      "DAMAGE": {
+        "SETTING_NAME": "Exibir Fórmula de Dano",
+        "TITLE": "Fórmula de Dano"
+      },
+      "DAMAGETYPES": {
+        "SETTING_NAME": "Exibir Tipos de Dano",
+        "TITLE": "Tipos de Dano"
+      },
+      "DESCRIPTION": "Selecione os menus a serem exibidos no ProseMirror.",
+      "DETECTPATTERNS": {
+        "SETTING_NAME": "Exibir Detecção de Padrões",
+        "TITLE": "Detecção de Padrões"
+      },
+      "DIALOG": "Configurar Enricher",
       "HEAL": {
-          "TITLE": "Fórmula de cura"
+        "SETTING_NAME": "Exibir Fórmula de Cura",
+        "TITLE": "Fórmula de Cura"
+      },
+      "ITEMPROPERTIES": {
+        "SETTING_NAME": "Exibir Propriedades de Magia",
+        "TITLE": "Propriedades de Magia"
       },
       "LOOKUP": {
-          "TITLE": "Consulta"
+        "SETTING_NAME": "Exibir Consulta",
+        "TITLE": "Consulta"
       },
       "RULES": {
-          "TITLE": "Regras"
+        "SETTING_NAME": "Exibir Regras",
+        "TITLE": "Regras"
       },
+      "SAVES": {
+        "SETTING_NAME": "Exibir Salvaguardas",
+        "TITLE": "Salvaguardas"
+      },
+      "SKILLS": {
+        "SETTING_NAME": "Exibir Perícias",
+        "TITLE": "Perícias"
+      },
+      "STYLE": {
+        "ADVICE_CONTENT": "Este é um bloco de conselho.",
+        "ADVICE": "Conselho",
+        "ADVICE_TITLE": "Conselho",
+        "HABITAT_TREASURE": "Habitat/Tesouro",
+        "HABITAT_TREASURE_TITLE_HABITAT": "Habitat",
+        "HABITAT_TREASURE_CONTENT_HABITAT": "O habitat",
+        "HABITAT_TREASURE_TITLE_TREASURE": "Tesouro",
+        "HABITAT_TREASURE_CONTENT_TREASURE": "O tesouro",
+        "NARRATIVE": "Narrativo",
+        "NOTABLE": "Notável",
+        "PULL_QUOTE_AUTHOR": "Autor",
+        "PULL_QUOTE_CONTENT": "Texto de citação aqui",
+        "PULL_QUOTE_LEFT": "Citação em Destaque - Esquerda",
+        "PULL_QUOTE_RIGHT": "Citação em Destaque - Direita",
+        "PULL_QUOTE_SOURCE": "Origem",
+        "QUEST": "Missão",
+        "QUEST_CONTENT": "Este é um bloco de missão.",
+        "QUEST_TITLE": "Missão",
+        "SETTING_NAME": "Exibir Estilos",
+        "TITLE": "Estilos",
+        "TREASURE": "Tesouro",
+        "TREASURE_CONTENT": "Este é um bloco de tesouro.",
+        "TREASURE_TITLE": "Tesouro"
+      },
+      "TITLE": "D&D - Easy Reference",
       "TOOLS": {
-          "TITLE": "Ferramentas"
+        "TITLE": "Ferramentas"
+      },
+      "WEAPONMASTERIES": {
+        "SETTING_NAME": "Exibir Masteries de Arma",
+        "TITLE": "Masteries de Arma"
       }
     },
     "SETTINGS": {
@@ -114,11 +156,6 @@
         "SHORT": "Formato Curto",
         "LONG": "Formato Longo",
         "TITLE": "Formato"
-      },
-      "MENU": {
-        "TITLE": "Configuração do Menu",
-        "LABEL": "Configurar Itens do Menu",
-        "HINT": "Configurar quais itens aparecem no menu D&D"
       }
     }
   }
