@@ -37,7 +37,7 @@ export default class PatternPromptDialog extends HandlebarsApplicationMixin(
   static PARTS = {
     form: {
       template:
-        "modules/dnd-easy-reference/templates/detection/pattern-prompt.hbs",
+        "modules/dnd-easy-reference/templates/pattern-detection/pattern-prompt.hbs",
     },
     footer: {
       template: "templates/generic/form-footer.hbs",

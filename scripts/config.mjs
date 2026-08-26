@@ -13,7 +13,7 @@ import RuleFormulaDialog from "./applications/rule-formula.mjs";
 import SaveFormulaDialog from "./applications/save-formula.mjs";
 import { insertText } from "./prose-mirror/utils.mjs";
 import { createReferenceSubMenuEntriesFromSourceData } from "./reference.mjs";
-import { getDetectionSubMenuItems } from "./detection/menu-setup.mjs";
+import { getDetectionSubMenuItems } from "./pattern-detection/menu-setup.mjs";
 import { getStyleMenuSubItems } from "./style-blocks/menu-setup.mjs";
 
 /**
