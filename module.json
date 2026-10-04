@@ -84,8 +84,7 @@
                 "type": "system",
                 "compatibility": {
                     "minimum": "4.0",
-                    "verified": "4.0",
-                    "maximum": "5.x"
+                    "verified": "5.x"
                 }
             }
         ]
